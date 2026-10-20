@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Inter:opsz@14..32&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    --color-1: #606C38;
+    --color-2: #FEFAE0;
+    --color-3: #DEAA50;
+    background-color: var(--color-1);
+    line-height: 1.618033;
+    font-size: 18px;
+}
+
+body {
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 60%;
+
+    @media (max-width: 720px) {
+        width: 90%;
+    }
+}
+
+pre {
+    font-size: 0.9rem;
+    border-left: 0.2rem solid var(--color-2);
+    padding: 0.5rem 1rem;
+    background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
+    overflow-x: auto;
+}
+
+code,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+i,
+em,
+p {
+    color: var(--color-2);
+
+    &::selection {
+        color: var(--color-1);
+        background-color: var(--color-2);
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+a:hover {
+    color: var(--color-3);
+}
+
+hr {
+    color: var(--color-2);
+}

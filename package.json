@@ -1,0 +1,15 @@
+{
+  "name": "portofolio",
+  "version": "0.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Faeiz Faiza Fasha",
+  "type": "module",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",  
+    "build": "npx @11ty/eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7"
+  }
+}
