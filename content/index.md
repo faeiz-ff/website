@@ -7,8 +7,7 @@ title: Tentang
 # faeiz faiza fasha
 Insinyur perangkat lunak dan Mahasiswa Ilmu komputer Universitas Indonesia.
 
-[github](https://github.com/faeiz-ff) - [blog](/blog) - [pipl](https://pipl.csui.me)
-
+[github](https://github.com/faeiz-ff), [blog](/blog)
 
 ## tentang
 
